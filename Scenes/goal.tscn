@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://dxdiqslds2b6v"]
+
+[ext_resource type="Script" path="res://Scripts/Goal.cs" id="1_r7cop"]
+
+[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_hrh5y"]
+
+[node name="Goal" type="Area2D"]
+script = ExtResource("1_r7cop")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+rotation = 1.5708
+shape = SubResource("WorldBoundaryShape2D_hrh5y")
+
+[connection signal="body_entered" from="." to="." method="OnBodyEntered"]

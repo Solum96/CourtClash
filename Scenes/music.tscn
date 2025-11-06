@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://dholscpkpem62"]
+
+[ext_resource type="AudioStream" uid="uid://b5xfm7q4dsuu7" path="res://Assets/Sounds/Music/sea_theme_1.wav" id="1_ocuuy"]
+
+[node name="Music" type="AudioStreamPlayer"]
+stream = ExtResource("1_ocuuy")
+autoplay = true
+bus = &"Music"

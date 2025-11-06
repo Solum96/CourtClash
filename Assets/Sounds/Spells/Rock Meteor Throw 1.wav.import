@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bo4lxowj4iitg"
+path="res://.godot/imported/Rock Meteor Throw 1.wav-04149872d1252dea4e71bb40194512ab.sample"
+
+[deps]
+
+source_file="res://Assets/Sounds/Spells/Rock Meteor Throw 1.wav"
+dest_files=["res://.godot/imported/Rock Meteor Throw 1.wav-04149872d1252dea4e71bb40194512ab.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

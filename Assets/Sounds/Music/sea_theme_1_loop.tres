@@ -1,0 +1,6 @@
+[gd_resource type="AudioStreamWAV" format=3 uid="uid://booakgmgyejog"]
+
+[resource]
+format = 1
+loop_mode = 1
+stereo = true
